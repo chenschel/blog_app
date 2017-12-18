@@ -32,6 +32,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 #
+gem 'jquery-rails'
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 
@@ -50,6 +51,8 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 
   gem 'rubocop'
+
+  gem 'pry-rails'
 end
 
 group :test do
