@@ -36,6 +36,8 @@ gem 'jquery-rails'
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 
+gem 'devise'
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'guard-rspec', require: false
