@@ -38,6 +38,8 @@ gem 'autoprefixer-rails'
 
 gem 'devise'
 
+gem 'rails-controller-testing'
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'guard-rspec', require: false
