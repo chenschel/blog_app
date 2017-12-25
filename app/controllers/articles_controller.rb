@@ -42,7 +42,9 @@ class ArticlesController < ApplicationController
     end
   end
 
-  def show; end
+  def show
+    @comment = @article.comments.build
+  end
 
   def destroy
     return unless @article.destroy
